@@ -1,0 +1,17 @@
+{
+  "name": "microfrontend-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "start": "lerna run --parallel start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
